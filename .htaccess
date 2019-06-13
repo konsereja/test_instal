@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} /
+RewriteRule ^(.*)$ http://tests.cmdf5.ru/test_sk/test_instal/App/public/index.php [R=301,L]
